@@ -55,18 +55,18 @@ const SignUpForm = () => {
 
   return (
     <div className="sign-up-container">
-      <h2>Don't have an account?</h2>
+      <h2>I do not have an account</h2>
       <span>Sign up with your email and password</span>
 
       <form onSubmit={handleSumbit}>
 
-        <FormInput label="Display Name" type="text" name="displayName" id="displayName" onChange={handleChange} value={displayName} required />
+        <FormInput label="Display Name" type="text" name="displayName" onChange={handleChange} value={displayName} required />
 
-        <FormInput label="Email" type="email" name="email" id="email" onChange={handleChange} value={email} required />
+        <FormInput label="Email" type="email" name="email" onChange={handleChange} value={email} required />
 
-        <FormInput label="Password" type="password" name="password" id="password" onChange={handleChange} value={password} required />
+        <FormInput label="Password" type="password" name="password" onChange={handleChange} value={password} required />
 
-        <FormInput label="Confirm Password" type="password" name="confirmPassword" id="confirmPassword" onChange={handleChange} value={confirmPassword} required />
+        <FormInput label="Confirm Password" type="password" name="confirmPassword" onChange={handleChange} value={confirmPassword} required />
 
         <Button children={"Sign Up"} type="submit" />
 
