@@ -1,4 +1,4 @@
-//Utils 
+//Misc 
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useSelector } from "react-redux/es/hooks/useSelector";

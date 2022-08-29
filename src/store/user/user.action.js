@@ -1,4 +1,4 @@
-//Utils
+//Misc
 import { createAction } from "../../utils/reducer/reducer.utils";
 import { USER_ACTION_TYPES } from "./user.types";
 

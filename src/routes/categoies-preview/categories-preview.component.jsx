@@ -1,4 +1,4 @@
-//Utils
+//Misc
 import { Fragment } from "react";
 import { useSelector } from "react-redux/es/hooks/useSelector";
 

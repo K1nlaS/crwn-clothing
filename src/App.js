@@ -1,4 +1,4 @@
-//Utils
+//Misc
 import { Route, Routes } from "react-router-dom";
 import { useDispatch } from "react-redux/es/exports";
 import { useEffect } from "react";

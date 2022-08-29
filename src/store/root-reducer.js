@@ -1,4 +1,4 @@
-//Utils
+//Misc
 import { combineReducers } from "redux";
 
 //Reducers

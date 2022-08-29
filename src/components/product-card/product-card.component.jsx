@@ -1,4 +1,4 @@
-//Utils
+//Misc
 import { useDispatch } from "react-redux/es/hooks/useDispatch";
 import { useSelector } from "react-redux/es/hooks/useSelector";
 

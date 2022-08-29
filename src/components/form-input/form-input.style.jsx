@@ -1,4 +1,4 @@
-//Utils
+//Misc
 import styled, { css } from 'styled-components';
 
 const subColor = 'grey';

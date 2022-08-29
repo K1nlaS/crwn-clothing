@@ -1,4 +1,4 @@
-//Utils
+//Misc
 import { Link } from "react-router-dom";
 
 //Components

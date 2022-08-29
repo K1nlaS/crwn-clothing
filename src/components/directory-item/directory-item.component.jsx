@@ -1,4 +1,4 @@
-//Utils
+//Misc
 import { useNavigate } from "react-router-dom";
 
 //Styled Components
