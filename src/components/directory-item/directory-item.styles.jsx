@@ -56,5 +56,9 @@ export const DirectoryItemContainter = styled.div`
     ${Body} {
       opacity: 0.9;
     }
+
+    @media screen and (max-width: 800px) {
+    height: 200px;
+    }
   }
 `;

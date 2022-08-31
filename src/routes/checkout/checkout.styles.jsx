@@ -8,6 +8,10 @@ export const CheckoutContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 50px auto 0;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 export const CheckoutHeader = styled.div`
@@ -26,10 +30,18 @@ export const HeaderBlock = styled.div`
   &:last-child {
     width: 8%;
   }
+
+  @media screen and (max-width: 800px) {
+    width: auto;
+
+    &:last-child {
+    width: auto;
+  }
+  }
 `;
 
 export const Total = styled.span`
   margin-top: 30px;
   margin-left: auto;
-  font-size: 36px;
+  font-size: 24px;
 `;
